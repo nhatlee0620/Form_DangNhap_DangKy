@@ -14,7 +14,7 @@ namespace Z_Solution_CSDL_Bai76_DangNhap_DangKy
         {
 
         }
-        SqlCommand sqlCommand; //Dùng để truy vấn các câu lệnh Insert, Update, Delect, Select 
+        SqlCommand sqlCommand; //Dùng để truy vấn các câu lệnh Insert, Update, Delete, Select 
         SqlDataReader dataReader; //Dùng để đọc dữ liệu trong bảng
         public List<TaiKhoan> TaiKhoans(string query) //Dùng để check tài khoản
         {
